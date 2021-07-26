@@ -1,10 +1,9 @@
-import React, { Suspense, useEffect, useRef, useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import {
  ZapparCamera, InstantTracker, ZapparCanvas, BrowserCompatibility,
 } from '@zappar/zappar-react-three-fiber';
 import { useLoader } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import * as THREE from 'three';
 import { Html } from '@react-three/drei';
 
 
