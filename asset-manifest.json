@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-three-example-instant-tracking-real-time-env-map/static/css/main.559d2a52.chunk.css",
-    "main.js": "/react-three-example-instant-tracking-real-time-env-map/static/js/main.df7881e7.chunk.js",
-    "main.js.map": "/react-three-example-instant-tracking-real-time-env-map/static/js/main.df7881e7.chunk.js.map",
-    "runtime-main.js": "/react-three-example-instant-tracking-real-time-env-map/static/js/runtime-main.89ffd575.js",
-    "runtime-main.js.map": "/react-three-example-instant-tracking-real-time-env-map/static/js/runtime-main.89ffd575.js.map",
-    "static/js/2.b53e3eb1.chunk.js": "/react-three-example-instant-tracking-real-time-env-map/static/js/2.b53e3eb1.chunk.js",
-    "static/js/2.b53e3eb1.chunk.js.map": "/react-three-example-instant-tracking-real-time-env-map/static/js/2.b53e3eb1.chunk.js.map",
-    "static/js/3.780bede4.chunk.js": "/react-three-example-instant-tracking-real-time-env-map/static/js/3.780bede4.chunk.js",
-    "static/js/3.780bede4.chunk.js.map": "/react-three-example-instant-tracking-real-time-env-map/static/js/3.780bede4.chunk.js.map",
-    "face_tracking_model.zbin": "/react-three-example-instant-tracking-real-time-env-map/482727c0e7dd40d73f5aae47f238ad61.zbin",
-    "face_mesh_face_model.zbin": "/react-three-example-instant-tracking-real-time-env-map/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
-    "face_mesh_full_head_simplified_model.zbin": "/react-three-example-instant-tracking-real-time-env-map/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
-    "index.html": "/react-three-example-instant-tracking-real-time-env-map/index.html",
-    "static/css/main.559d2a52.chunk.css.map": "/react-three-example-instant-tracking-real-time-env-map/static/css/main.559d2a52.chunk.css.map",
-    "static/js/2.b53e3eb1.chunk.js.LICENSE.txt": "/react-three-example-instant-tracking-real-time-env-map/static/js/2.b53e3eb1.chunk.js.LICENSE.txt",
-    "static/js/worker.4183e75e.worker.js": "/react-three-example-instant-tracking-real-time-env-map/static/js/worker.4183e75e.worker.js",
-    "static/js/worker.4183e75e.worker.js.map": "/react-three-example-instant-tracking-real-time-env-map/static/js/worker.4183e75e.worker.js.map",
-    "zcv/zcv.wasm": "/react-three-example-instant-tracking-real-time-env-map/zcv/zcv.wasm"
+    "main.css": "./static/css/main.559d2a52.chunk.css",
+    "main.js": "./static/js/main.c7d70565.chunk.js",
+    "main.js.map": "./static/js/main.c7d70565.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6a61b884.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6a61b884.js.map",
+    "static/js/2.f4115162.chunk.js": "./static/js/2.f4115162.chunk.js",
+    "static/js/2.f4115162.chunk.js.map": "./static/js/2.f4115162.chunk.js.map",
+    "static/js/3.762b418c.chunk.js": "./static/js/3.762b418c.chunk.js",
+    "static/js/3.762b418c.chunk.js.map": "./static/js/3.762b418c.chunk.js.map",
+    "face_tracking_model.zbin": "./482727c0e7dd40d73f5aae47f238ad61.zbin",
+    "face_mesh_face_model.zbin": "./b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
+    "face_mesh_full_head_simplified_model.zbin": "./f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
+    "index.html": "./index.html",
+    "static/css/main.559d2a52.chunk.css.map": "./static/css/main.559d2a52.chunk.css.map",
+    "static/js/2.f4115162.chunk.js.LICENSE.txt": "./static/js/2.f4115162.chunk.js.LICENSE.txt",
+    "static/js/worker.9e5a6f86.worker.js": "./static/js/worker.9e5a6f86.worker.js",
+    "static/js/worker.9e5a6f86.worker.js.map": "./static/js/worker.9e5a6f86.worker.js.map",
+    "static/js/zcv.wasm": "./static/js/zcv.wasm"
   },
   "entrypoints": [
-    "static/js/runtime-main.89ffd575.js",
-    "static/js/2.b53e3eb1.chunk.js",
+    "static/js/runtime-main.6a61b884.js",
+    "static/js/2.f4115162.chunk.js",
     "static/css/main.559d2a52.chunk.css",
-    "static/js/main.df7881e7.chunk.js"
+    "static/js/main.c7d70565.chunk.js"
   ]
 }
