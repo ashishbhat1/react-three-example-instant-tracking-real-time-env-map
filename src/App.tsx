@@ -14,7 +14,7 @@ function Model() {
   });
   return (
     <group>
-      <primitive castShadow scale="0.6" object={gltf.scene} position="0" />
+      <primitive castShadow scale="0.6" object={gltf.scene} position={[0, -1, 0]} />
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
         <planeBufferGeometry attach="geometry" />
         <shadowMaterial attach="material" opacity={0.2} />
@@ -65,7 +65,7 @@ function App() {
       </div>
       <ZapparCanvas shadows >
         <ZapparCamera environmentMap poseMode="anchor-origin" />
-        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, -1, -2]}>
+        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -2]}>
           <Suspense fallback={<Html><div style={{ color: "white", fontWeight: "bold" }}>Model Loading...</div></Html>}>
             <Model />
           </Suspense>
