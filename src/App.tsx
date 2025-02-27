@@ -14,7 +14,7 @@ function Model() {
   });
   return (
     <group>
-      <primitive castShadow scale="1.2" object={gltf.scene} position="0" />
+      <primitive castShadow scale="0.6" object={gltf.scene} position="0" />
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
         <planeBufferGeometry attach="geometry" />
         <shadowMaterial attach="material" opacity={0.2} />
