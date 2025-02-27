@@ -71,7 +71,7 @@ function App() {
       >
         Tap here to
         {placementMode ? ' place ' : ' pick up '}
-        the object
+        the object and ensure the button is properly visible
       </div>
     </>
   );
