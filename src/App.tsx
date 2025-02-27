@@ -60,15 +60,19 @@ function App() {
         onClick={() => { setPlacementMode(((currentPlacementMode) => !currentPlacementMode)); }}
         style={{
           position: "absolute",
-          top: "10px", // Moves it towards the top
+          top: "10px",
           left: "50%",
-          transform: "translateX(-50%)", // Centers it horizontally
+          transform: "translateX(-50%)",
+          width: "auto", // Prevents full-width stretching
+          maxWidth: "80%", // Ensures it doesn’t get too wide
           padding: "10px 20px",
           background: "rgba(0, 0, 0, 0.7)",
           color: "white",
           borderRadius: "10px",
           cursor: "pointer",
-          zIndex: 1000, // Ensures it's above other elements
+          zIndex: 1000,
+          textAlign: "center",
+          whiteSpace: "nowrap",
         }}
       >
         Tap here to
