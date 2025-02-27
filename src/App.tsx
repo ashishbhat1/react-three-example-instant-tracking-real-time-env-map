@@ -58,22 +58,6 @@ function App() {
         onKeyPress={() => { setPlacementMode(((currentPlacementMode) => !currentPlacementMode)); }}
         tabIndex={0}
         onClick={() => { setPlacementMode(((currentPlacementMode) => !currentPlacementMode)); }}
-        style={{
-          position: "absolute",
-          top: "10px",
-          left: "50%",
-          transform: "translateX(-50%)",
-          width: "auto", // Prevents full-width stretching
-          maxWidth: "80%", // Ensures it doesn’t get too wide
-          padding: "10px 20px",
-          background: "rgba(0, 0, 0, 0.7)",
-          color: "white",
-          borderRadius: "10px",
-          cursor: "pointer",
-          zIndex: 1000,
-          textAlign: "center",
-          whiteSpace: "nowrap",
-        }}
       >
         Tap here to
         {placementMode ? ' place ' : ' pick up '}
