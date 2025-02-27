@@ -52,16 +52,6 @@ function App() {
   return (
     <>
       <BrowserCompatibility />
-      <ZapparCanvas shadows >
-        <ZapparCamera environmentMap poseMode="anchor-origin" />
-        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -2]}>
-          <Suspense fallback={<Html><div style={{ color: "white", fontWeight: "bold" }}>Model Loading...</div></Html>}>
-            <Model />
-          </Suspense>
-          <Lights />
-        </InstantTracker>
-
-      </ZapparCanvas>
       <div
         id="zappar-button"
         role="button"
@@ -73,6 +63,16 @@ function App() {
         {placementMode ? ' place ' : ' pick up '}
         the object and ensure the button is properly visible
       </div>
+      <ZapparCanvas shadows >
+        <ZapparCamera environmentMap poseMode="anchor-origin" />
+        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -2]}>
+          <Suspense fallback={<Html><div style={{ color: "white", fontWeight: "bold" }}>Model Loading...</div></Html>}>
+            <Model />
+          </Suspense>
+          <Lights />
+        </InstantTracker>
+
+      </ZapparCanvas>
     </>
   );
 }
