@@ -65,7 +65,7 @@ function App() {
       </div>
       <ZapparCanvas shadows >
         <ZapparCamera environmentMap poseMode="anchor-origin" />
-        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, -2, -2]}>
+        <InstantTracker placementMode={placementMode} placementCameraOffset={[0, -1, -2]}>
           <Suspense fallback={<Html><div style={{ color: "white", fontWeight: "bold" }}>Model Loading...</div></Html>}>
             <Model />
           </Suspense>
